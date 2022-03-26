@@ -13,8 +13,7 @@
  *= require_tree .
  *= require_self
  */
-.firstSection{
-    background-image: url(building.jpg);
+.indexSection, .aboutSection, .contactSection{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,6 +21,18 @@
     background-blend-mode: soft-light;
     background-color: #000000c6;
     height: 600px;
+}
+
+.indexSection{
+    background-image: url(building.jpg);
+}
+
+.aboutSection{
+    background-image: url(about.jpg);
+}
+
+.contactSection{
+    background-image: url(contact-page.jpg);
 }
 
 .imageSection{
@@ -37,7 +48,7 @@
     background-color: #000000db;
 }
 
-.navMenu ul{
+ul{
     list-style: none;
 }
 .navMenu ul li{

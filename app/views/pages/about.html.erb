@@ -1,2 +1,17 @@
-<h1>Pages#about</h1>
-<p>Find me in app/views/pages/about.html.erb</p>
+<section class="d-flex flex-column">
+    <div class="text-center text-white aboutSection d-flex flex-column">
+        <h1 class="mt-auto mb-1 display-2">Companies Inc.</h1>
+        <p class="mt-0 mb-3">
+            www.companies-inc.com
+        </p>
+        <p class="mb-3 mt-0">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        </p>
+       <div class="mb-auto mt-0">
+            <%= link_to 'Create account', new_user_registration_path, class:"btn btn-info" if !current_user %>
+            <%= link_to 'Sign out', destroy_user_session_path, method: :delete, class:"btn btn-danger" if current_user %>
+        </div>
+    </div>
+    <br>
+</section>
+    
