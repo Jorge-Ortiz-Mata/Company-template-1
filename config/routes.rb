@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   root 'pages#index'
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
+  get 'privacy_policy', to: 'pages#privacy_policy'
+  get 'terms', to: 'pages#terms'
 
   devise_scope :user do
     get 'sign_out' => 'devise/sessions#destroy'
