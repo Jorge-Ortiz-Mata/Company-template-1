@@ -1,49 +1,78 @@
-<section>
-    <div>
-        <h1>Companies Inc.</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Ullam quaerat atque laboriosam eius, architecto fugit incidunt illo cumque cum. 
-            Ducimus commodi distinctio debitis vel quasi deleniti quis, iusto fugiat nisi.
+<section class="d-flex flex-column">
+    <div class="text-center text-white firstSection d-flex flex-column">
+        <h1 class="mt-auto mb-1 display-2">Companies Inc.</h1>
+        <p class="mt-0 mb-3">
+            www.companies-inc.com
         </p>
+        <p class="mb-3 mt-0">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        </p>
+       <div class="mb-auto mt-0">
+            <%= link_to 'Create account', new_user_registration_path, class:"btn btn-info" %>
+        </div>
     </div>
-    <div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Ullam quaerat atque laboriosam eius, architecto fugit incidunt illo cumque cum. 
-            Ducimus commodi distinctio debitis vel quasi deleniti quis, iusto fugiat nisi.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Ullam quaerat atque laboriosam eius, architecto fugit incidunt illo cumque cum. 
-            Ducimus commodi distinctio debitis vel quasi deleniti quis, iusto fugiat nisi.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Ullam quaerat atque laboriosam eius, architecto fugit incidunt illo cumque cum. 
-            Ducimus commodi distinctio debitis vel quasi deleniti quis, iusto fugiat nisi.
-        </p>
+    <br>
+    <div class="p-5 d-flex flex-column">
+        <h2 class="text-center mb-5">Our clients</h2>
+        <div class="d-flex flex-row mt-2 justify-content-around">
+            <h5>Microsoft</h5>
+            <h5>Google</h5>
+            <h5>Apple</h5>
+            <h5>Amazon</h5>
+            <h5>Facebook</h5>
+            <h5>Twitter</h5>
+            <h5>Uber</h5>
+        </div>
+    </div>
+    <div class="d-flex flex-row p-5">
+        <div class="w-75 ml-5 mr-0 d-flex flex-column">
+            <h2 class="text-center mt-auto mb-3">
+                What do we do?
+            </h2>
+            <p class="ml-0 mr-5 text-center mt-2 mb-auto">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Ullam quaerat atque laboriosam eius, architecto fugit incidunt illo cumque cum. 
+                Ducimus commodi distinctio debitis vel quasi deleniti quis, iusto fugiat nisi.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Ullam quaerat atque laboriosam eius, architecto fugit incidunt illo cumque cum. 
+                Ducimus commodi distinctio debitis vel quasi deleniti quis, iusto fugiat nisi.
+                Lorem ipsum dolor sit amet consectetur. 
+            </p>
+        </div>
+        <div class="imageSection mt-auto mb-auto">
+        </div>
+    </div>
+    <br>
+    <div class="d-flex flex-row p-5">
+        <div class="imageSection mt-auto mb-auto ml-5">
+        </div>
+        <div class="w-75 ml-5 mr-0 d-flex flex-column">
+            <h2 class="text-center mt-auto mb-3">Our products.</h2>
+            <p class="ml-0 mr-5 text-center mt-2 mb-3">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Ullam quaerat atque laboriosam eius, architecto fugit incidunt illo cumque cum. 
+                Ducimus commodi distinctio debitis vel quasi deleniti quis, iusto fugiat nisi.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Ullam quaerat atque laboriosam eius, architecto fugit incidunt illo cumque cum. 
+                Ducimus commodi distinctio debitis vel quasi deleniti quis, iusto fugiat nisi.
+            </p>
+            <div class="text-center mt-0 mb-auto">
+                <%= link_to "See more", '#', class:"btn btn-info" %>
+            </div>
+        </div>
     </div>
     <br>
     <div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Ullam quaerat atque laboriosam eius, architecto fugit incidunt illo cumque cum. 
-            Ducimus commodi distinctio debitis vel quasi deleniti quis, iusto fugiat nisi.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Ullam quaerat atque laboriosam eius, architecto fugit incidunt illo cumque cum. 
-            Ducimus commodi distinctio debitis vel quasi deleniti quis, iusto fugiat nisi.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Ullam quaerat atque laboriosam eius, architecto fugit incidunt illo cumque cum. 
-            Ducimus commodi distinctio debitis vel quasi deleniti quis, iusto fugiat nisi.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Ullam quaerat atque laboriosam eius, architecto fugit incidunt illo cumque cum. 
-            Ducimus commodi distinctio debitis vel quasi deleniti quis, iusto fugiat nisi.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Ullam quaerat atque laboriosam eius, architecto fugit incidunt illo cumque cum. 
-            Ducimus commodi distinctio debitis vel quasi deleniti quis, iusto fugiat nisi.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Ullam quaerat atque laboriosam eius, architecto fugit incidunt illo cumque cum. 
-            Ducimus commodi distinctio debitis vel quasi deleniti quis, iusto fugiat nisi.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Ullam quaerat atque laboriosam eius, architecto fugit incidunt illo cumque cum. 
-            Ducimus commodi distinctio debitis vel quasi deleniti quis, iusto fugiat nisi.
-        </p>
+        <h4 class="p-5 text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        </h4>
+    </div>
+    <br>
+    <div class="p-5">
+        <h2 class="text-center mb-5">Our staff</h2>
+        <section>
+            <%= render 'pages/cards' %>
+        </section>
     </div>
 </section>
