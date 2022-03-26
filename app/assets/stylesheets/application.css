@@ -34,7 +34,7 @@
 }
 
 .navMenu{
-    background-color: #000000cd;
+    background-color: #000000db;
 }
 
 .navMenu ul{
@@ -59,7 +59,7 @@
     height: 100px;
 }
 
-.imageCard, .imageCard2{
+.imageCard, .imageCard2, .imageCard3, .imageCard4{
     background-position: center;
     background-size: cover;
     border-radius: 100px;
@@ -73,4 +73,12 @@
 
 .imageCard2{
     background-image: url(joseph.jpg);
+}
+
+.imageCard3{
+    background-image: url(belinda.jpg);
+}
+
+.imageCard4{
+    background-image: url(george.jpg);
 }
