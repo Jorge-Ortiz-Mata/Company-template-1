@@ -33,9 +33,44 @@
     background-size: cover;
 }
 
+.navMenu{
+    background-color: #000000cd;
+}
+
+.navMenu ul{
+    list-style: none;
+}
+.navMenu ul li{
+    color: #ffffff;
+}
+
+.noticeMessage{
+    color: #01560b;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #d5ffda;
+}
+
 .backCard{
     background-color: #000000c6;
     background-blend-mode: soft-light;
     width: 100%;
     height: 100px;
+}
+
+.imageCard, .imageCard2{
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.imageCard{
+    background-image: url(taylor.jpg);
+}
+
+.imageCard2{
+    background-image: url(joseph.jpg);
 }
