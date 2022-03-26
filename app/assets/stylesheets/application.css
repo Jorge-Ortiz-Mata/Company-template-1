@@ -93,3 +93,12 @@ ul{
 .imageCard4{
     background-image: url(george.jpg);
 }
+
+.imageAboutInfo{
+    background-image: url(camera.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    width: 200px;
+    height: 250px;
+}
